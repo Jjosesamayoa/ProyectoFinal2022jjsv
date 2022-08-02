@@ -9,7 +9,7 @@
     <title>Toyota</title>
 </head>
 
-<body style="background: url(image/fondo.jpg); background-size: cover; background-repeat: no-repeat;">
+<body style="background: url(image/fondoa.jpg); background-size: cover; background-repeat: no-repeat;">
     <table width="100%">
         <tr>
             <td colspan="12" align="center">
@@ -18,17 +18,17 @@
         </tr>
         <tr>
             <td colspan="4">
-                    <form action="productos.php">
+                    <form action="productos/productos.php">
                         <input type="submit" value="Productos">
                     </form>
             </td>
             <td colspan="4">
-                    <form action="tiendas.php">
+                    <form action="tiendas/tiendas.php">
                         <input type="submit" value="Tiendas">
                     </form>
             </td>
             <td colspan="4">
-                    <form action="contacto.php">
+                    <form action="contactos/contacto.php">
                         <input type="submit" value="Contáctenos">
                     </form>
             </td>
@@ -42,21 +42,22 @@
     <div class="contenedor">
         <section class="a" align="center"><a href="image/lg.png"><img src="image/lg.png" width="330px" height="300px"></a></section>
         <section class="b" align="center"><a href="image/img1.png"><img src="image/img1.png" width="250px" height="250px"></a></section>
-        <section class="c" align="center"><a href="image/img2.png"><img src="image/img2.png" width="260px" height="200px"></a></section>
+        <section class="c" align="center"><a href="image/img2.png"><img src="image/img2.png" width="290px" height="200px"></a></section>
         <section class="d" align="center"><a href="image/img3.png"><img src="image/img3.png" width="500px" height="230px"></a></section>
     </div>
-    <table>
-        <tr>
-            <td colspan="3" style="background-color: purple;">
+    <table align="center" width="100%">
+        <tr style="background-color: purple;">
+            <td colspan="2" align="left">
                 <h6 style="color: withe;">PBX: XXXXX-XXXXX</h6>
             </td>
-            <td colspan="3" style="background-color: purple;">
-                <h6 style="color: withe;">Dirección: XXXXX-XXXXX-XXXX</h6>
+            <td colspan="2" align="right">
+                <h6 style="color: left;">Dirección: XXXXX-XXXXX-XXXX</h6>
             </td>
-            <td colspan="3" style="background-color: purple;" align="right">
+            <td colspan="2" align="right">
             <h6>Carné: 2021-40131</h6>
             </td>
-            <td colspan="3" style="background-color: purple;" align="right">
+            <td colspan="4">.</td>
+            <td colspan="2" align="right">
             <h6>Nombre: Juan José Samayoa Vásquez</h6>
             </td>
         </tr>
