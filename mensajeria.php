@@ -5,7 +5,7 @@ include 'bd.php';
 /*Validar la sesión*/
 $us = $_SESSION['Usuario'];
 if (!isset($us)) {
-    header("location:login.php");
+    header("location:lg.php");
 }
 ?>
 <!DOCTYPE html>
