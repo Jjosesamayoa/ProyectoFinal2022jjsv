@@ -14,7 +14,32 @@
     <table width="100%">
         <tr>
             <td colspan="12" align="center">
-                <a href="image/logo.png"><img src="image/logo.png" width="600" height="400px"></a>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://www.toyota.com.gt/vehiculo/raize-guatemala?hsCtaTracking=91eaf42c-62f3-47a3-8df5-026b4f88dac6%7Cabde49a6-311b-46b9-b101-22c54c904356"><img src="image/Banner-Web-RAIZE.webp" class="d-block w-100" alt="..."></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.toyota.com.gt/vehiculo/corolla-cross-hibrida-guatemala?hsCtaTracking=328ba829-519e-4c9a-9579-bc83be95c20a%7C12866330-aad6-4f1e-afd9-69297b8aedec"><img src="image/Banners-Web-CROSS.webp" class="d-block w-100" alt="..."></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://www.toyota.com.gt/calculadora-de-servicios?hsCtaTracking=b12b9d18-b362-424a-94f7-1fc2ef0c5478%7C0d7a6834-bf6c-4d33-81ce-0226853db11b"><img src="image/Banners-Web.webp" class="d-block w-100" alt="..."></a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </td>
         </tr>
         <tr>
@@ -29,7 +54,7 @@
                 </form>
             </td>
             <td colspan="4">
-                <form action="lg.php">
+                <form action="mensajeria/lg.php">
                     <input type="submit" value="Contáctenos">
                 </form>
             </td>
@@ -42,9 +67,9 @@
     </table><br>
     <div class="contenedor">
         <section class="a" align="center"><a href="image/lg.png"><img src="image/lg.png" width="330px" height="300px"></a></section>
-        <section class="b" align="center"><a href="image/img1.png"><img src="image/img1.png" width="250px" height="250px"></a></section>
-        <section class="c" align="center"><a href="image/img2.png"><img src="image/img2.png" width="290px" height="200px"></a></section>
-        <section class="d" align="center"><a href="image/img3.png"><img src="image/img3.png" width="500px" height="230px"></a></section>
+        <section class="b" align="center"><img src="image/img1.png" width="300px" height="250px"></section>
+        <section class="c" align="center"><img src="image/img2.png" width="300px" height="250px"></section>
+        <section class="d" align="center"><img src="image/img3.png" width="300px" height="250px"></section>
     </div>
     <table align="center" width="100%">
         <tr style="background-color: purple;">
