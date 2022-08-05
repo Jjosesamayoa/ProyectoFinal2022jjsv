@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="d.css">
-    <link rel="stylesheet" href="productos.css">
+    <link rel="stylesheet" href="efectos.css">
     <title>Productos/Servicios</title>
 </head>
 
-<body>
+<body style="background: url(image/fondo.jpg); background-size: cover; background-repeat: no-repeat;">
     <table width="100%">
         <tr>
             <td colspan="4">
@@ -35,30 +35,116 @@
             </td>
         </tr>
     </table>
-    <div class="contenedor">
-        <section class="a">
-            <div class="contenedor">
-                <figure>
-                    <img src="img/mouse.jpg">
-                    <div class="capa">
-                        <h3>TECLADOS</h3>
-                        <p>Ergonomicos, contra el agua etc.</p>
+    <table width="100%">
+        <tr>
+            <td>
+                <section class="a">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="image/S2A-23.jpg">
+                            <div class="capa">
+                                <h3>RAV4</h3>
+                                <p>Modelo SA2-23 Gasolina,16 Valvulas, DOHC, Dual VVTi, 203/4400-4900 Nm/rpm. M20A-FKS <br>Q250,000</p>
+                            </div>
+                        </figure>
                     </div>
-                </figure>
-            </div>
-        </section>
-        <section class="b">b</section>
-        <section class="c">c</section>
-        <section class="d">d</section>
-        <section class="e">e</section>
-        <section class="f">f</section>
-        <section class="g">g</section>
-        <section class="h">h</section>
-        <section class="i">i</section>
-        <section class="j">j</section>
-        <section class="k">k</section>
-        <section class="l">l</section>
-    </div>
+                </section>
+            </td>
+            <td>
+                <section class="b">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="image/S2M-23.jpg">
+                            <div class="capa">
+                                <h3>RAV4</h3>
+                                <p>Modelo S2M-23 Cuero local Gratis<br>Q250,000 </p>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+            </td>
+            <td>
+                <section class="c">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="image/S2A-23.jpg">
+                            <div class="capa">
+                                <h3>RAV4</h3>
+                                <p>Modelo S2T-23 Gasolina,16 Valvulas,DOHC,Dual VVTi, 203/4400-4900 Nm/rpm. M20A-FKS<br>Q265,999 </p>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+            </td>
+            <td>
+                <section class="d">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="image/MU-23.jpg">
+                            <div class="capa">
+                                <h3>Toyota Yaris</h3>
+                                <p>Modelo MU-23 Gasolina,VVT-i Dual,16Válvulas DOHC 123/4200 Nm/rpm. 1NR-FE<br>Q125,900 </p>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <section class="e">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="image/VX-23.jpg">
+                            <div class="capa">
+                                <h3>Toyota Corolla Cross Gasolina</h3>
+                                <p>Modelo VX-23 Gasolina,16 Valvulas,DOHC,Dual VVTi, 203/4400-4900 Nm/rpm. M20A-FKS <br>Q215,990</p>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+            </td>
+            <td>
+                <section class="f">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="image/CHR2-23.jpg">
+                            <div class="capa">
+                                <h3>CH R Hibrida</h3>
+                                <p>Modelo CHR2-23 Gasolina, 16 válvulas, VVTi, DOHC, 142/3600 Nm/rpm. 2ZR-FXE. Motor eléctrico de 72 H.P. 163/Nm Híbrido<br>Q257,990 </p>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+            </td>
+            <td>
+                <section class="g">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="image/CHR3-23.jpg">
+                            <div class="capa">
+                                <h3>CH R Hibrida</h3>
+                                <p>Modelo chr3-23 Gasolina, 16 válvulas, VVTi, DOHC, 142/3600 Nm/rpm. 2ZR-FXE. Motor eléctrico de 72 H.P. 163/Nm Híbrido<br>Q262,990 </p>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+            </td>
+            <td>
+                <section class="h">
+                    <div class="contenedor">
+                        <figure>
+                            <img src="image/PA-23.jpg">
+                            <div class="capa">
+                                <h3>Toyota Yaris Sedan</h3>
+                                <p>Modelo PA-23 Gasolina,VVT-i Dual,16Válvulas DOHC, 140/4200 Nm/rpm. 2NR-FE<br>Q175,900 </p>
+                            </div>
+                        </figure>
+                    </div>
+                </section>
+            </td>
+        </tr>
+    </table>
 </body>
 
 </html>
