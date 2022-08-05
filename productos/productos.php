@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="dindex.css">
+    <link rel="stylesheet" href="d.css">
     <link rel="stylesheet" href="productos.css">
     <title>Productos/Servicios</title>
 </head>
@@ -39,7 +39,7 @@
         <section class="a">
             <div class="contenedor">
                 <figure>
-                    <img src="img/mouse.jpg" alt="">
+                    <img src="img/mouse.jpg">
                     <div class="capa">
                         <h3>TECLADOS</h3>
                         <p>Ergonomicos, contra el agua etc.</p>
