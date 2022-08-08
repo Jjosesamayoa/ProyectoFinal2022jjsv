@@ -44,12 +44,12 @@
         </tr>
         <tr>
             <td colspan="4">
-                <form action="productos.php">
+                <form action="productos/productos.php">
                     <input type="submit" value="Productos">
                 </form>
             </td>
             <td colspan="4">
-                <form action="tiendas.php">
+                <form action="tiendas/tiendas.php">
                     <input type="submit" value="Tiendas">
                 </form>
             </td>
