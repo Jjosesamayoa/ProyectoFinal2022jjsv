@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="dindex.css">
-    <link rel="stylesheet" href="dindex2.css">
     <title>Toyota</title>
 </head>
 
-<body style="background: url(image/fondoa.jpg); background-size: cover; background-repeat: no-repeat;">
+<body>
     <table width="100%">
         <tr>
             <td colspan="12" align="center">
@@ -44,19 +43,25 @@
         </tr>
         <tr>
             <td colspan="4">
+                <section class="a">
                 <form action="productos/productos.php">
                     <input type="submit" value="Productos">
                 </form>
+                </section>
             </td>
             <td colspan="4">
+                <section class="b">
                 <form action="tiendas/tiendas.php">
                     <input type="submit" value="Tiendas">
                 </form>
+                </section>
             </td>
             <td colspan="4">
+                <section class="c">
                 <form action="mensajeria/lg.php">
                     <input type="submit" value="Contáctenos">
                 </form>
+                </section>
             </td>
         </tr>
         <tr>
@@ -66,23 +71,40 @@
         </tr>
     </table><br>
     <div class="contenedor">
-        <section class="a" align="center"><a href="image/lg.png"><img src="image/lg.png" width="330px" height="300px"></a></section>
-        <section class="b" align="center"><img src="image/img1.png" width="300px" height="250px"></section>
-        <section class="c" align="center"><img src="image/img2.png" width="300px" height="250px"></section>
-        <section class="d" align="center"><img src="image/img3.png" width="300px" height="250px"></section>
+        <table width="100%" align="center" border="1">
+            <tr>
+                <td colspan="6" rowspan="2">
+                    <img src="image/lg.png" width="420px" height="340px">
+                </td>
+                <td colspan="3">
+                    <img src="image/img1.png"  width="250px" height="200px">
+                </td>
+                <td colspan="3">
+                    <img src="image/img2.png" width="370px" height="230px">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <img src="image/img3.png" width="550px" height="325px">
+                </td>
+            </tr>
+        </table>
     </div>
     <table align="center" width="100%">
         <tr style="background-color: purple;">
-            <td colspan="2" align="left">
+            <td colspan="1" align="left">
                 <h6 style="color: withe;">PBX: XXXXX-XXXXX</h6>
             </td>
-            <td colspan="2" align="right">
+            <td colspan="1" align="right">
                 <h6 style="color: left;">Dirección: XXXXX-XXXXX-XXXX</h6>
             </td>
-            <td colspan="2" align="right">
+            <td colspan="4">
+                .
+            </td>
+            <td colspan="1" align="right">
                 <h6>Carné: 2021-40131</h6>
             </td>
-            <td colspan="4">.</td>
+            <td colspan="1">.</td>
             <td colspan="2" align="right">
                 <h6>Nombre: Juan José Samayoa Vásquez</h6>
             </td>

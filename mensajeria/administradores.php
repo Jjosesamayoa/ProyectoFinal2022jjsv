@@ -17,7 +17,7 @@ if (isset($us) && isset($pass)) {
   if ($us==$usok && $pass==$pasok) {
     $_SESSION['logeosi'] = TRUE;
     $_SESSION['Usuario'] = $us;
-    header("location:revisión.php");
+    header("location:revision.php");
   }
   else{ 
     echo '<script lenguage="javascript">';
