@@ -1,0 +1,32 @@
+.a [type=submit]{
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.b [type=submit]{
+width: 100%;
+background-color: skyblue;
+color: black;
+padding: 14px 20px;
+margin: 8px 0;
+border: solid;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.c [type=submit]{
+width: 100%;
+background-color: lightblue;
+color: black;
+padding: 14px 20px;
+margin: 8px 0;
+border: solid;
+border-radius: 4px;
+cursor: pointer;
+}
