@@ -13,21 +13,21 @@
 <body style="background: url(image/fondo.jpg); background-size: cover; background-repeat: no-repeat;">
     <table width="100%">
     <tr>
-            <td colspan="4">
+            <td width="200px">
                 <section class="a">
                 <form action="../index.php">
-                    <input type="submit" value="PgInicio">
+                    <input type="submit" value="Páginag de Inicio">
                 </form>
                 </section>
             </td>
-            <td colspan="4">
+            <td width="200px">
                 <section class="b">
                 <form action="../tiendas/tiendas.php">
                     <input type="submit" value="Tiendas">
                 </form>
                 </section>
             </td>
-            <td colspan="4">
+            <td width="200px">
                 <section class="c">
                 <form action="../mensajeria/lg.php">
                     <input type="submit" value="Contáctenos">

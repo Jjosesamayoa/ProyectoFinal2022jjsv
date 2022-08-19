@@ -41,26 +41,28 @@
                 </div>
             </td>
         </tr>
+    </table>
+    <table width="100%">
         <tr>
-            <td colspan="4">
+            <td width="200px">
                 <section class="a">
-                <form action="productos/productos.php">
-                    <input type="submit" value="Productos">
-                </form>
+                    <form action="productos/productos.php">
+                        <input type="submit" value="Productos">
+                    </form>
                 </section>
             </td>
-            <td colspan="4">
+            <td width="200px">
                 <section class="b">
-                <form action="tiendas/tiendas.php">
-                    <input type="submit" value="Tiendas">
-                </form>
+                    <form action="tiendas/tiendas.php">
+                        <input type="submit" value="Tiendas">
+                    </form>
                 </section>
             </td>
-            <td colspan="4">
+            <td width="200px">
                 <section class="c">
-                <form action="mensajeria/lg.php">
-                    <input type="submit" value="Contáctenos">
-                </form>
+                    <form action="mensajeria/lg.php">
+                        <input type="submit" value="Contáctenos">
+                    </form>
                 </section>
             </td>
         </tr>
@@ -69,7 +71,8 @@
                 <h3 style="color: purple;">Ofertas del mes</h3>
             </td>
         </tr>
-    </table><br>
+    </table>
+    <br>
     <div class="contenedor">
         <table width="100%" align="center" border="1">
             <tr>
@@ -77,7 +80,7 @@
                     <img src="image/lg.png" width="420px" height="340px">
                 </td>
                 <td colspan="3">
-                    <img src="image/img1.png"  width="250px" height="200px">
+                    <img src="image/img1.png" width="250px" height="200px">
                 </td>
                 <td colspan="3">
                     <img src="image/img2.png" width="370px" height="230px">
